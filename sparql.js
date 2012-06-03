@@ -385,7 +385,7 @@ SPARQL.Query = function(service, priority) {
 	
 				xhr.send(content);
 			} catch (e) {
-				alert("Error sending SPARQL query: " + e);
+				console.log("Error sending SPARQL query: " + e);
 			}
 		} else {
 			var self = this;
